@@ -32,14 +32,15 @@
     </form>
 
     <script>
-        fetch('moviles.json')
-       .then(response => response.json())
-       .then(movil => {
-            document.getElementById("marca").value = movil.marca;
-            document.getElementById("modelo").value = movil.modelo;
-            document.getElementById("precio").value = movil.precio;
-            document.getElementById("almacenamiento").value = movil.almacenamiento;
-});
+fetch('moviles.json')
+  .then(response => response.json())
+  .then(data => {
+       document.getElementById("marca").value = data[0].marca;
+       document.getElementById("modelo").value = data[0].modelo;
+       document.getElementById("precio").value = data[0].precio;
+       document.getElementById("almacenamiento").value = data[0].almacenamiento;
+  });
+
 
     </script>
 
