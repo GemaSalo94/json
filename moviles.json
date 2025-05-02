@@ -1,0 +1,27 @@
+[
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23 Ultra",
+      "precio": 1299.99,
+      "almacenamiento": "512GB"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 15 Pro Max",
+      "precio": 1399.99,
+      "almacenamiento": "256GB"
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 8 Pro",
+      "precio": 999.99,
+      "almacenamiento": "128GB"
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14 Ultra",
+      "precio": 899.99,
+      "almacenamiento": "512GB"
+    }
+  ]
+  
