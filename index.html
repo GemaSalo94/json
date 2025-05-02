@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Consumir un JSON con FETCH</title>
+</head>
+<body>
+
+    <h1>Móviles Disponibles</h1>
+    <script>
+        fetch('moviles.json')
+          .then(response => response.json())
+          .then(data => alert(data[0].marca));
+      </script>
+
+</body>
+</html>
